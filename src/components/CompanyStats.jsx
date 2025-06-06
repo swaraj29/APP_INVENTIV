@@ -1,5 +1,5 @@
 import React from "react";
-import polyLine from "../assets/images/poly_line.svg";
+import polyLine from "../assets/Images/poly_line.svg";
 
 const stats = [
   {
