@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
 // Import video files
-import video1 from "../assets/videos/healthcare-product-testimonial.mp4";
-import video2 from "../assets/videos/plandid-testimonial.mp4";
-import video3 from "../assets/videos/saying-about-appinventiv.mp4";
-import video4 from "../assets/videos/tourist-testimonial.mp4";
+import video1 from "../assets/Videos/healthcare-product-testimonial.mp4";
+import video2 from "../assets/Videos/plandid-testimonial.mp4";
+import video3 from "../assets/Videos/saying-about-appinventiv.mp4";
+import video4 from "../assets/Videos/tourist-testimonial.mp4";
 
 const clients = [
   {
