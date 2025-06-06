@@ -1,7 +1,7 @@
-import awsLogo from '../assets/images/aws-partner.svg';
-import mongodbLogo from '../assets/images/mongodb-partner.svg';
-import googleCloudLogo from '../assets/images/google-cloud-partner.svg';
-import cloudinaryLogo from '../assets/images/cloudinary-partner.svg';
+import awsLogo from '../assets/Images/aws-partner.svg';
+import mongodbLogo from '../assets/Images/mongodb-partner.svg';
+import googleCloudLogo from '../assets/Images/google-cloud-partner.svg';
+import cloudinaryLogo from '../assets/Images/cloudinary-partner.svg';
 
 export default function StrategicPartnersSection() {
   const logos = [

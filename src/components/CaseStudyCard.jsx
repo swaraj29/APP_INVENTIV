@@ -2,9 +2,9 @@ import React, { useRef, useState, useEffect } from "react";
 import { ArrowRight } from "lucide-react";
 
 // Replace with your actual image imports
-import img1 from "../assets/images/showcase-adidas.webp";
-import img2 from "../assets/images/showcase-ikea.webp";
-import img3 from "../assets/images/showcase-pizzahut.webp";
+import img1 from "../assets/Images/showcase-adidas.webp";
+import img2 from "../assets/Images/showcase-ikea.webp";
+import img3 from "../assets/Images/showcase-pizzahut.webp";
 
 const images = [img1, img2, img3];
 

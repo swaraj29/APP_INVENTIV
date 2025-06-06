@@ -1,11 +1,11 @@
 import { useEffect, useRef } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
-import badge1 from "../assets/images/clutch-badge-top-100.png";
-import badge2 from "../assets/images/clutch-badge-top-100.png";
-import badge3 from "../assets/images/clutch-badge-top-100.png";
-import badge4 from "../assets/images/clutch-badge-top-100.png";
-import badge5 from "../assets/images/clutch-badge-top-100.png";
+import badge1 from "../assets/Images/clutch-badge-top-100.png";
+import badge2 from "../assets/Images/clutch-badge-top-100.png";
+import badge3 from "../assets/Images/clutch-badge-top-100.png";
+import badge4 from "../assets/Images/clutch-badge-top-100.png";
+// import badge5 from "../assets/images/clutch-badge-top-100.png";
 
 const awards = [
   { image: badge1, year: "2022", title: "Best Place To Work" },
