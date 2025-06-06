@@ -1,5 +1,5 @@
 import React from 'react';
-import heroVideo from '../assets/hero-video.mp4'; // Make sure video is placed in src/assets
+import heroVideo from '../assets/Videos/hero-video.mp4'; // Make sure video is placed in src/assets
 
 const Hero = () => {
   return (
