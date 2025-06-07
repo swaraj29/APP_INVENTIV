@@ -16,9 +16,12 @@ import StrategicPartnersSection from '../components/StrategicPartnersSection'
 import ConsultationForm from '../components/ConsultationForm'
 import FAQAccordion from '../components/FAQAccordion'
 import Footer from '../components/Footer'
+import TopBanner from '../components/TopBanner'
+import GlobalPresence from '../components/GlobalPresence'
 const HomePage = () => {
   return (
     <div>
+      <TopBanner />
       <Header />
       <Hero/> 
       <RecognitionBar/>
@@ -29,12 +32,13 @@ const HomePage = () => {
       <Future_Tech />
       <Partners />
       <AwardsCarousel />
-      <Testimonials />
+      <Testimonials />  
       <IndustriesGrid />
       <TechCapbilities />
       <StrategicPartnersSection />
       <ConsultationForm />
       <FAQAccordion/>
+      <GlobalPresence />
       <Footer/>
     </div>
   )
