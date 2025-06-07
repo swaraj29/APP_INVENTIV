@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowUp, Instagram, X, Linkedin } from 'lucide-react';
-import path from "../assets/Images/Path.svg"; // Adjust the path as necessary
+import path from "../assets/Images/path.svg"; // Adjust the path as necessary
 
 const Footer = () => {
   const [openSections, setOpenSections] = useState({});
