@@ -1,4 +1,3 @@
-// src/components/IndustriesGrid.jsx
 import {
   FaHeartbeat,
   FaDollarSign,
@@ -43,7 +42,7 @@ const IndustriesGrid = () => {
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-light leading-tight tracking-tight max-w-3xl">
+          <h2 className="text-2xl sm:text-4xl font-light leading-tight tracking-tight max-w-3xl">
             A Unified Vision That Caters To<br />Diverse Industry Demands
           </h2>
           <button className="mt-6 md:mt-0 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-6 py-3 rounded-lg transition">

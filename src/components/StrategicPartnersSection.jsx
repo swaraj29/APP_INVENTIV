@@ -12,20 +12,23 @@ export default function StrategicPartnersSection() {
   ];
 
   return (
-    <section className="bg-[#1C1C1C] py-16 px-4">
-      <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between">
-        <h2 className="text-white text-4xl font-medium max-w-md">
-          Strategic Partnerships To Unlock Greater Business Value
-        </h2>
-        <div className="flex flex-wrap justify-center gap-12 mt-8 sm:mt-0">
-          {logos.map((partner) => (
-            <img
-              key={partner.name}
-              src={partner.src}
-              alt={partner.name}
-              className="h-12 object-contain"
-            />
-          ))}
+    <section className="bg-[#1C1C1C] py-10 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+      <div className="max-w-7xl mx-auto">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 sm:gap-10 md:gap-12">
+          <h2 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium max-w-md leading-tight sm:leading-snug">
+            Strategic Partnerships To Unlock Greater Business   <br />
+            Value
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8 md:gap-10 lg:gap-12 mt-6 sm:mt-8 lg:mt-0">
+            {logos.map((partner) => (
+              <img
+                key={partner.name}
+                src={partner.src}
+                alt={partner.name}
+                className="h-10 sm:h-12 md:h-14 object-contain"
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>

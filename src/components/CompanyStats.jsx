@@ -36,14 +36,14 @@ const stats = [
 
 const CompanyStats = () => {
   return (
-    <section className="bg-black text-white px-4 md:px-16 py-20">
+    <section className="bg-black text-white px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 py-12 sm:py-16 md:py-20">
       {/* Header */}
-      <div className="flex flex-col lg:flex-row justify-between gap-10 mb-20">
-        <h2 className="text-3xl lg:text-4xl font-semibold lg:w-[45%] leading-snug">
+      <div className="flex flex-col lg:flex-row justify-between gap-6 sm:gap-8 md:gap-10 mb-12 sm:mb-16 md:mb-20">
+        <h2 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl  lg:w-[45%] leading-tight sm:leading-snug">
           Transforming Businesses With Technology That Transcends Geographies
           And Platforms
         </h2>
-        <p className="text-gray-300 text-lg lg:w-[50%]">
+        <p className="text-gray-300 text-base sm:text-lg md:text-xl lg:w-[50%]">
           Appinventiv is one of the world’s largest IT service providers helping
           companies redefine their digital possibilities for nearly a decade now.
           With our team of 1600+ tech evangelists, we are building the digital
@@ -53,36 +53,40 @@ const CompanyStats = () => {
       </div>
 
       {/* Stats Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-14 gap-x-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-10 sm:gap-y-12 md:gap-y-14 gap-x-6 sm:gap-x-8 md:gap-x-10">
         {stats.map((stat, index) => (
           <div
             key={index}
-            className="relative border-l border-gray-700 pl-6 pr-2"
+            className="relative border-l border-gray-700 pl-4 sm:pl-5 md:pl-6 pr-2"
           >
-            <div className="text-blue-500 text-[28px] font-semibold">
+            <div className="text-blue-500 text-xl sm:text-2xl md:text-[28px] font-semibold">
               {stat.value}
             </div>
-            <h3 className="text-lg font-semibold mt-1">{stat.title}</h3>
-            <p className="text-gray-400 text-sm mt-2">{stat.description}</p>
+            <h3 className="text-base sm:text-lg md:text-xl font-semibold mt-1 sm:mt-2">
+              {stat.title}
+            </h3>
+            <p className="text-gray-400 text-sm sm:text-base md:text-sm mt-2 sm:mt-3">
+              {stat.description}
+            </p>
           </div>
         ))}
 
         {/* CTA Card */}
-        <div className="bg-[#1B1B1B] rounded-2xl p-8 flex flex-col justify-between border border-[#2E2E2E] shadow-md relative overflow-hidden">
+        <div className="bg-[#1B1B1B] rounded-2xl p-6 sm:p-7 md:p-8 flex flex-col justify-between border border-[#2E2E2E] shadow-md relative overflow-hidden">
           {/* Background SVG Image */}
           <img
             src={polyLine}
             alt="Growth chart"
-            className="absolute bottom-4 right-4 w-20 h-20 opacity-10 pointer-events-none select-none"
+            className="absolute bottom-3 sm:bottom-4 right-3 sm:right-4 w-16 sm:w-18 md:w-20 h-16 sm:h-18 md:h-20 opacity-10 pointer-events-none select-none"
           />
 
           {/* Text and Button */}
           <div>
-            <h4 className="text-lg font-semibold mb-3">
+            <h4 className="text-base sm:text-lg md:text-xl font-semibold mb-3 sm:mb-4">
               Ready to innovate and drive an impact?
             </h4>
           </div>
-          <button className="mt-auto bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg w-fit z-10">
+          <button className="mt-auto bg-blue-600 hover:bg-blue-700 text-white px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 rounded-lg w-fit z-10 text-sm sm:text-base">
             Partner With Us
           </button>
         </div>
